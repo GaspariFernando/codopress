@@ -1,7 +1,4 @@
 .header-container {
-    background-image: url("../../assets/images/WZ2-S01-DMZ-TACTICS-TOUT\ 2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100vw;
     height: 560px;
 
@@ -19,6 +16,7 @@
         .logo-header {
             display: flex;
             flex-direction: row;
+
             .icono-header {
                 margin-left: 156px;
             }
@@ -38,7 +36,7 @@
                 color: #FF2A00;
                 border-bottom: 3px solid #FF2A00;
                 box-sizing: border-box;
-                
+
             }
 
             button {
@@ -55,8 +53,117 @@
             }
         }
 
-        .buscador-inicio-header {}
+        .buscador-inicio-header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 390px;
 
-        .carrusel-header {}
+            .buscador-header {
+                height: 16.045713424682617px;
+                width: 16px;
+
+            }
+
+            .inicio-sesion-header {
+                margin-left: 27px;
+
+                button {
+                    all: unset;
+                    height: 32px;
+                    width: 167px;
+                    border-radius: 4px;
+                    color: #FFFFFF;
+                    background-color: #FF2A00;
+                    justify-content: center;
+                    font-family: 'Exo';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 16px;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
     }
+
+    .carrusel-header {
+        position: absolute;
+        top: 0;
+        z-index: -999;
+        width: 100vw;
+
+        #carouselExampleCaptions {
+            .carousel-inner {
+                .carousel-item {
+                    .noticias-fecha {
+                        display: flex;
+                        flex-direction: row;
+
+                        button {
+                            all: unset;
+                            width: 72px;
+                            height: 21.03px;
+                            margin-right: 24px;
+                            background: #272727;
+                            color: #AAAAAA;
+                            font-family: Exo;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            letter-spacing: 0em;
+                            text-align: center;
+                            border-radius: 4px;
+
+
+                        }
+
+                        p {
+                            width: 66px;
+                            height: 21.03px;
+                            font-family: Exo;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #AAAAAA;
+
+                        }
+                    }
+
+                    .carousel-caption {
+
+                        h5 {
+                            font-family: 'Exo';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 32px;
+                            line-height: 40px;
+                            color: #FFFFFF;
+                            text-align: left;
+                        }
+
+                        p {
+                            font-family: 'Exo';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+* {
+    // border: 1px solid red;
 }
