@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NoticiasDestacadasComponent } from './noticias-destacadas/noticias-destacadas.component';
+import { UltimasNoticiasComponent } from './ultimas-noticias/ultimas-noticias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NoticiasDestacadasComponent
+    NoticiasDestacadasComponent,
+    UltimasNoticiasComponent
   ],
   imports: [
     BrowserModule,

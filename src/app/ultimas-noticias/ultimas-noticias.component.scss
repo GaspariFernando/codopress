@@ -1,0 +1,154 @@
+.ultimas-noticias-lanzamientos-container {
+    display: flex;
+    flex-direction: row;
+    .ultimas-noticias-container {
+        h1 {
+            margin-left: 156px;
+            margin-bottom: 33px;
+            font-family: 'Exo';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 20px;            
+            display: flex;
+            align-items: center;
+            text-align: center;            
+            color: #FFFFFF;
+        }
+        .ultimas-noticias {
+            display: flex;
+            flex-direction: row;
+            width: 456PX;
+
+            img {
+                width: 260px;
+                height: 149px;
+                border-radius: 4px;
+                margin-left: 156px;
+                margin-bottom: 16px;
+            }
+
+            .info-ultimas-noticias {
+                margin-left: 24px;
+                button {
+                    all: unset;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    width: 72px;
+                    height: 20px;
+                    background: #272727;
+                    border-radius: 4px;
+
+                    color: #AAAAAA;
+                    font-family: 'Exo';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 20px;
+
+                    margin-bottom: 8px;
+                }
+
+                h5 {
+                    width: 456px;
+                    height: 40px;
+                    font-family: 'Exo';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    align-items: center;
+                    color: #FFFFFF;
+
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    width: 456px;
+                    height: 60px;
+                    font-family: 'Exo';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 20px;
+                    align-items: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .lanzamientos-container {
+        margin-left: 460px;
+        h1 {
+            font-family: 'Exo';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;            
+            color: #FFFFFF;
+
+            margin-bottom: 33px;
+            margin-left: 168px;
+        }
+
+        .lanzamientos {
+            width: 360px;
+            height: 102px;
+            margin-bottom: 20px;
+            margin-left: 168px;
+            
+            h2 {
+                font-family: 'Exo';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+                padding-top: 11px;
+                margin-left: 15px;
+            }
+
+            .iconos {
+                margin-left: 15px;
+            }
+
+            p {
+                font-family: 'Exo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 20px;
+                color: #FFFFFF;
+                margin-top: 7px;
+                margin-left: 15px;
+            }
+
+        }
+
+        .lanzamientos1 {
+            background-image: url("../../assets/images/lanzamiento1.png");
+        }
+
+        .lanzamientos2 {
+            background-image: url("../../assets/images/lanzamiento2.png");
+        }
+
+        .lanzamientos3 {
+            background-image: url("../../assets/images/lanzamiento3.png");
+        }
+
+        .lanzamientos4 {
+            background-image: url("../../assets/images/lanzamiento4.png");
+        }
+    }
+}
+
+* {
+    // border: 1px solid red;
+}
